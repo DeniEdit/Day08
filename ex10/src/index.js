@@ -1,6 +1,6 @@
 // Only change code below this line
 function mathTest(x, y) {
-    console.log(8);
+    
 }
 
 mathTest(2, 2);

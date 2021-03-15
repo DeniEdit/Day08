@@ -2,15 +2,15 @@
 var sum = 0;
 function addThree() {
     sum = sum + 3;
+    console.log("addThree: " + sum);
 }
-
-addThree(3);
+addThree();
 
 function addFive() {
     sum = sum + 5;
+    console.log("addFive: " + sum);
 }
-
-addThree(8);
+addThree();
 
 // Only change code below this line
 module.exports = {

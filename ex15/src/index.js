@@ -1,13 +1,9 @@
 // Only change code below this line
 function convertToInt(str) {
-    var a = parseInt("BA");
-    var a = parseInt("F1");
-    var a = parseInt("JeffBezos");
-
-    console.log(str);
+    return parseInt(str,16);
 }
-convertToInt(186);
-convertToInt(241);
-convertToInt(NaN);
-// Only change code below this line
+console.log(typeof convertToInt("BA"));
+console.log(convertToInt("BA"));
+console.log(convertToInt("F1"));
+console.log(convertToInt("JeffBezos"));
 module.exports = convertToInt;

@@ -1,12 +1,9 @@
 // Only change code below this line
 var dress = "little dress";
-function name() {
-
-return dress;
-}
-function myDress () {
+function myDress() {
     var dress = "ball gown";
+    return dress;
 }
-myDress(dress);
+dress = myDress();
 console.log(dress);
 module.exports = myDress;

@@ -1,6 +1,6 @@
 // Write code below this line
 var myGlobalVariable = 10;
-function function1(myGlobalVariable,notGlobalVariable){
+function function1(){
     var notGlobalVariable = 5;
     
 }
